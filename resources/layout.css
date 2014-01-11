@@ -3,6 +3,36 @@
  * 
  */
 
+#nav {
+	width: 150px;
+	/*background-color: aqua;*/
+	float: left;
+	margin-left: 50px;
+}
+
+#main {
+	width: 600px;
+	/*background-color: yellow;*/
+	float: left;
+	border-left: 1px solid #999;
+	padding-left: 50px
+}
+
+#header {
+	/*border-bottom: 1px solid #999;*/
+	margin-bottom: 50px;
+	margin-left: 50px;
+	background-color: hotpink;
+	width: 500px;
+	border: 2px dashed yellow;
+}
+
+img {
+	width: 120px;
+	border-radius: 5px;
+	border: 8px solid pink;
+}
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	background: #f4f4f4;
@@ -31,14 +61,10 @@ a:hover {
 	margin: 0 auto;
 }
 
-#header  {
-	border-bottom: 1px solid #999;
-}
+/*#header  {
+	border-bottom: 1px solid #999;*/
+/*}*/
 
-#nav {
-	margin: 0 20px 0 0;
-  /* CHALLENGE 3: how could you get this to float to the left side of the screen? */
-}
 
 #main {
 	margin: 0;
